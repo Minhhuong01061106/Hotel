@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-md">
+      <a href="" class="navbar-brand" id="brand">trai Hotels</a>
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href=""
+              >Home
+              <div class="underline"></div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Hotels for sale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn" id="btn_signin">Sign in</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="Imghome">
+      <img src="./display/city.jpg" alt="" id="big-img" />
+      <p class="Text-Bigimg">
+        <b
+          >The ease of buying <br />
+          a dream hotel
+        </b>
+      </p>
+      <button class="btn" id="btn-left">❮</button>
+      <button class="btn" id="btn-right">❯</button>
+      <div class="Rectangle">
+        <div class="small d-flex">
+          <div class="btn_r" id="r1">
+            <button class="btn" id="btnnho"><p>BUY HOTELS</p></button>
+          </div>
+          <div class="btn_r" id="r2">
+            <button class="btn" id="btnnho"><p>TRAIDING</p></button>
+          </div>
+          <div class="btn_r" id="r3">
+            <button class="btn" id="btnnho"><p>FEATURED</p></button>
+          </div>
+        </div>
+        <div class="big d-flex">
+          <div class="big-op" id="first-op">
+            <label for="contry">Contry</label>
+            <br />
+            <select name="contry" id="op">
+              <option value="America">America</option>
+              <option value="VietNam">VietNam</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Japan">Japan</option>
+            </select>
+          </div>
+          <div class="big-op">
+            <label for="city">City</label>
+            <br />
+            <select name="city" id="op">
+              <option value="America">Miami</option>
+              <option value="VietNam">VietNam</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Japan">Japan</option>
+            </select>
+          </div>
+          <div class="big-op">
+            <label for="propertytype">Property Type</label>
+            <br />
+
+            <select name="propertytype" id="op">
+              <option value="America">Hotels</option>
+              <option value="VietNam">VietNam</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Japan">Japan</option>
+            </select>
+          </div>
+          <div class="big-op">
+            <label for="prince">Prince</label>
+            <br />
+            <select name="prince" id="op">
+              <option value="America">$3,000,00....$5,000,00</option>
+              <option value="VietNam">VietNam</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Japan">Japan</option>
+            </select>
+          </div>
+          <div class="big-op" id="search-div">
+            <button class="btn" id="search">SEARCH</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" id="container">
+      <div class="row">
+        <div class="col d-flex">
+          <div style="border: 1px solid rgba(35, 31, 32, 1)"></div>
+          <div class="new"><b>New&nbsp;</b></div>
+          <div class="hotels">hotels</div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 25px;">
+          <div class="col col-md-3">
+            <div class="card" style="width:100%;">
+            <div class="img-card-re">
+              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+              <button class="btn" id="btn-left-small">❮</button>
+              <button class="btn" id="btn-right-small">❯</button>
+              <label for="prince" id="prince_card">$18,000,000.00</label>
+            </div>
+            
+            <div class="card-body">
+              <div class="card-title d-flex">
+                <span id="where">Venecia, Italia</span>
+                <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+              </div>
+              <div class="card-subtitle">
+                <button class="btn" id="btn_sm">SHOW MORE...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col col-md-3">
+            <div class="card" style="width:100%;">
+            <div class="img-card-re">
+              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+              <button class="btn" id="btn-left-small">❮</button>
+              <button class="btn" id="btn-right-small">❯</button>
+              <label for="prince" id="prince_card">$18,000,000.00</label>
+            </div>
+            <div class="card-body">
+              <div class="card-title d-flex">
+                <span id="where">Venecia, Italia</span>
+                <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+              </div>
+              <div class="card-subtitle">
+                <button class="btn" id="btn_sm">SHOW MORE...</button>
+              </div>
+            </div>
+          </div> 
+        </div>
+          <div class="col col-md-3">
+            <div class="card" style="width:100%;">
+            <div class="img-card-re">
+              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+              <button class="btn" id="btn-left-small">❮</button>
+              <button class="btn" id="btn-right-small">❯</button>
+              <label for="prince" id="prince_card">$18,000,000.00</label>
+            </div>
+            <div class="card-body">
+              <div class="card-title d-flex">
+                <span id="where">Venecia, Italia</span>
+                <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+              </div>
+              <div class="card-subtitle">
+                <button class="btn" id="btn_sm">SHOW MORE...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col col-md-3">
+              <div class="card" style="width:100%;">
+              <div class="img-card-re">
+                <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+                <button class="btn" id="btn-left-small">❮</button>
+                <button class="btn" id="btn-right-small">❯</button>
+                <label for="prince" id="prince_card">$18,000,000.00</label>
+              </div>
+                <div class="card-body">
+                  <div class="card-title d-flex">
+                  <span id="where">Venecia, Italia</span>
+                  <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+                </div>
+                  <div class="card-subtitle">
+                  <button class="btn" id="btn_sm">SHOW MORE...</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <div style="position: relative;" id="button_viewmore">
+          <button class="btn" id="btn_viewmore">View More...</button>
+        </div>
+        
+      </div>
+      <div class="row"></div>
+      <div class="row"></div>
+    </div>
+  </body>
+</html>
