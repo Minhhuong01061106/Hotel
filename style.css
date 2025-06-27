@@ -153,7 +153,7 @@
   width: auto;
 }
 
-.op {
+.select-city {
   width: 220px;
 }
 
@@ -288,4 +288,87 @@
 
 #button_viewmore {
   height: 100px;
+}
+
+#img-bignews {
+  width: 100%;
+  height: auto;
+}
+
+.row-title {
+  margin-bottom: 30px;
+}
+
+#img-bignews {
+  border-radius: 15px;
+  margin-right: 20px;
+  padding: 5px;
+}
+#CNN {
+  width: 40px;
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+}
+#text-title {
+  color: white;
+  position: absolute;
+  bottom: 23px;
+  left: 40px;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#text-subtitle {
+  position: absolute;
+  bottom: 0px;
+  left: 17px;
+  color: white;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+#scb {
+  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 530px;
+  padding: 5px;
+  gap: 10px;
+}
+
+.img-item {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.content {
+  width: 60%;
+  overflow-wrap: break-word;
+  padding-left: 7px;
+}
+.img-item-scollbar {
+  width: 40%;
+  border-radius: 2px;
+  border: 1px;
+  text-align: right;
+}
+
+.scb-item {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.card-service {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#services {
+  gap: 10%;
 }
