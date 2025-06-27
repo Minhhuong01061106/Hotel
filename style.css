@@ -54,8 +54,8 @@
 
 #big-img {
   display: block;
-  width: 97%;
-  height: 700px;
+  width: 95%;
+  height: auto;
   border-radius: 20px;
   margin: 0 auto;
   object-fit: cover;
@@ -63,13 +63,13 @@
 
 .Text-Bigimg {
   position: absolute;
-  top: 142px;
-  left: 106px;
+  top: 10%;
+  left: 10%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: aliceblue;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 10vw;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -81,52 +81,55 @@
 #btn-left {
   color: aliceblue;
   position: absolute;
-  top: 50%;
+  top: 30vw;
   left: 25px;
-  transform: translateY(-40%);
+  transform: translateY(-50%);
   font-size: 40px;
 }
 #btn-right {
   color: aliceblue;
   position: absolute;
-  top: 50%;
-  right: 25px;
+  top: 30vw;
+  right: 30px;
   transform: translateY(-50%);
   font-size: 40px;
 }
-.btn_r {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: px;
-  height: 50px;
-}
+
 #r1 {
   border-top-left-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .Rectangle {
-  width: 80%;
-  height: 120px;
+  width: 90%;
+  height: auto;
   margin: 0 auto;
-  margin-top: -70px;
+  margin-top: -58px;
+  margin-bottom: 30px;
 }
-
-#btnnho {
-  padding-right: 90px;
+.btn-rectangle-buyhotel {
+  width: 100%;
+}
+.btn-rectangle {
   height: 50px;
   border: none;
+  color: aliceblue;
+  width: 100%;
 }
-#r1 {
-  border-top-left-radius: 10px;
+#r1 > .btn {
   background: rgba(255, 255, 255, 1);
+  color: black;
 }
-#btnnho > p {
+.btn-rectangle {
   margin-top: 7px;
+}
+.btn-rectangle-buyhotel {
+  color: black;
 }
 #r2 {
   background: rgba(46, 76, 89, 1);
   opacity: 80%;
 }
-#r2 > #btnnho > p {
+#r2 > .btn-rectangle {
   color: rgba(255, 255, 255, 1);
 }
 #r3 {
@@ -135,23 +138,23 @@
   color: rgba(255, 255, 255, 1);
   border-top-right-radius: 15px;
 }
-#r3 > #btnnho > p {
+#r3 > .btn-rectangle {
   color: rgba(255, 255, 255, 1);
 }
 
-.big {
-  height: 70px;
+.big > .row {
+  height: auto;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .big-op {
   background-color: rgba(255, 255, 255, 1);
-  width: 80%;
   padding-top: 10px;
-  padding-left: 10px;
+  width: auto;
 }
 
-#op {
-  width: 210px;
+.op {
+  width: 220px;
 }
 
 #search {
@@ -160,7 +163,7 @@
   height: 50px;
   border-radius: 7px;
   color: rgba(255, 255, 255, 1);
-  margin-left: 20px;
+  margin-right: 100%;
 }
 
 #search-div {
@@ -221,7 +224,7 @@
 
 #img-card {
   width: 100%;
-  height: 280px;
+  height: auto;
   border-radius: 8px;
   padding: 5px;
 }
