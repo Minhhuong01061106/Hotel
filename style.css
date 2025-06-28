@@ -423,10 +423,12 @@
   border-bottom-right-radius: 47.5px;
   color: aliceblue;
   padding: 0px;
+  margin-top: 30px;
 }
 .col-text-subscription > input {
   width: 37vw;
   height: 4vw;
+  margin-top: 30px;
 }
 .row-subscription > .col {
   padding: 0px;
