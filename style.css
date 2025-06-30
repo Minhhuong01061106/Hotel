@@ -401,7 +401,8 @@
   background: rgba(243, 248, 249, 1);
   border-radius: 17px;
   border-width: 1px;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
 }
 .row-title-subscription {
   text-align: center;
@@ -468,13 +469,13 @@
   border: 3px solid rgb(75, 72, 72);
 }
 .text-menu {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .row-ft {
   background-color: #000;
   color: rgba(255, 255, 255, 1);
-  padding: 20px;
+  padding: 50px;
 }
 
 .row-hr {
@@ -484,4 +485,7 @@
   background-color: #000;
   color: rgba(255, 255, 255, 1);
   text-align: center;
+}
+.row-bottomft > h3 {
+  font-size: 10px;
 }
