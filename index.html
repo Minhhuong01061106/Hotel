@@ -14,12 +14,13 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/b9112cd231.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>trai Hotels</title>
   </head>
   <body>
     <div class="navbar navbar-expand-md">
-      <a href="" class="navbar-brand" id="brand">trai Hotels</a>
+      <a href="" class="navbar-brand menu-brand">trai Hotels</a>
       <button
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -45,191 +46,194 @@
             <a class="nav-link" href="">Contacts</a>
           </li>
           <li class="nav-item">
-            <button class="btn" id="btn_signin">Sign in</button>
+            <button class="btn btn-signin">Sign in</button>
           </li>
         </ul>
       </div>
     </div>
-
-    <div class="Imghome">
-      <img src="./display/city.jpg" alt="" id="big-img" />
-      <p class="Text-Bigimg">
+    <div class="img-home">
+      <img src="./display/city.jpg" alt="Anhloi" id="big-img"/>
+      <p class="text-bigimg">
         <b
           >The ease of buying <br />
           a dream hotel
         </b>
       </p>
-      <button class="btn" id="btn-left">❮</button>
-      <button class="btn" id="btn-right">❯</button>
-      <div class="container"></div>
-
-      <div class="container Rectangle">
-        <div class="row row-rectangle">
-          <div class="col-4 col-sm-4 col-md-2" id="r1">
-            <button class="btn btn-rectangle btn-rectangle-buyhotel">
+      <button class="btn btn-left">❮</button>
+      <button class="btn btn-right">❯</button>
+      <div class="container container-search ">
+        <div class="row row-tab-search ">
+          <div class=" col-4 col-ms-4 col-md-2  p-0">
+            <button class=" btn-tabsearch btn-tabsearch-left btn-tabsearch-active">
               BUY HOTELS
             </button>
           </div>
-          <div class="col-4 col-sm-4 col-md-2" id="r2">
-            <button class="btn btn-rectangle">TRAIDING</button>
+          <div class=" col-4 col-ms-4 col-md-2 p-0">
+            <button class=" btn-tabsearch">
+              TRAIDING
+            </button>
           </div>
-          <div class="col-4 col-sm-4 col-md-2" id="r3">
-            <button class="btn btn-rectangle">FEATURED</button>
+          <div class=" col-4 col-ms-4 col-md-2 p-0 ">
+            <button class=" btn-tabsearch btn-tabsearch-right">
+              FEATURED
+            </button>
           </div>
         </div>
-        <div class="row container big">
-          <div class="row d-flex">
-            <div class="col col-sm-6 col-md-3 col-lg-2 big-op" id="first-op">
-              <label for="contry">Contry</label>
+        <div class="row-search-options container">
+          <div class="row">
+            <div class="col col-ms-12 col-md-6 col-lg-2 big-op" >
+              <label for="country">Country</label>
               <br />
-              <select name="contry" class="select select-city">
+              <select name="country" class="select select-search">
                 <option value="America">America</option>
                 <option value="VietNam">VietNam</option>
                 <option value="Thailand">Thailand</option>
                 <option value="Japan">Japan</option>
               </select>
             </div>
-            <div class="col col-sm-12 col-md-6 col-lg-2 big-op">
-              <label for="label label-city">City</label>
+            <div class="col col-ms-12 col-md-6 col-lg-2 big-op">
+              <label for="city">City</label>
               <br />
-              <select name="city" class="select select-city">
+              <select name="city" class="select select-search">
                 <option value="America">Miami</option>
-                <option value="VietNam">VietNam</option>
-                <option value="Thailand">Thailand</option>
-                <option value="Japan">Japan</option>
+                <option value="HochiminhCity">Ho Chi Minh City</option>
+                <option value="Haiphongcity">Hai Phong City</option>
               </select>
             </div>
-            <div class="col col-sm-12 col-md-6 col-lg-2 big-op">
-              <label for="propertytype">Property Type</label>
+            <div class="col col-ms-12 col-md-6 col-lg-2 big-op">
+              <label for="property">Property Type</label>
               <br />
 
-              <select name="propertytype" class="select select-city">
+              <select name="propertytype" class="select select-search">
                 <option value="America">Hotels</option>
                 <option value="VietNam">VietNam</option>
                 <option value="Thailand">Thailand</option>
                 <option value="Japan">Japan</option>
               </select>
             </div>
-            <div class="col col-sm-12 col-md-6 col-lg-2 big-op">
-              <label for="prince">Prince</label>
+            <div class="col col-ms-12 col-md-6 col-lg-2 big-op">
+              <label for="price">Price</label>
               <br />
-              <select name="prince" class="select select-city">
+              <select name="price" class="select select-search">
                 <option value="America">$3,000,00....$5,000,00</option>
                 <option value="VietNam">VietNam</option>
                 <option value="Thailand">Thailand</option>
                 <option value="Japan">Japan</option>
               </select>
             </div>
-            <div class="col col-sm-12 col-md-6 col-lg-2 big-op" id="search-div">
-              <button class="btn" id="search">SEARCH</button>
+            <div class="col col-ms-12 col-md-6 col-lg-2 big-op col-btn-search">
+              <button class="btn btn-search">SEARCH</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container container-newhotel" id="container">
+    <div class="container container-newhotel">
       <div class="row">
         <div class="col d-flex">
           <div style="border: 1px solid rgba(35, 31, 32, 1)"></div>
-          <div class="new"><b>New&nbsp;</b></div>
-          <div class="hotels">hotels</div>
+          <div class="div-new"><b>New&nbsp;</b></div>
+          <div class="div-hotels">hotels</div>
         </div>
       </div>
       <div class="row" style="margin-top: 25px;">
           <div class="col-sm-12 col-md-6 col-lg-3">
             <div class="card" style="width:100%;">
-            <div class="img-card-re">
+            <div class="img-card-newhotel">
               <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
-              <button class="btn" id="btn-left-small">❮</button>
-              <button class="btn" id="btn-right-small">❯</button>
-              <label for="prince" id="prince_card">$18,000,000.00</label>
+              <button class="btn btn-newhotel-left">❮</button>
+              <button class="btn btn-newhotel-right">❯</button>
+              <label for="price" class="label-card-price">$18,000,000.00</label>
+              <button class="btn btn-newhotel-bookmark"><i class="fa-regular fa-bookmark"></i></button>
             </div>
             
-            <div class="card-body">
-              <div class="card-title d-flex">
-                <span id="where">Venecia, Italia</span>
-                <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
-              </div>
-              <div class="card-subtitle">
-                <button class="btn" id="btn_sm">SHOW MORE...</button>
-              </div>
-            </div>
-          </div>
-        </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width:100%;">
-            <div class="img-card-re">
-              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
-              <button class="btn" id="btn-left-small">❮</button>
-              <button class="btn" id="btn-right-small">❯</button>
-              <label for="prince" id="prince_card">$18,000,000.00</label>
-            </div>
-            <div class="card-body">
-              <div class="card-title d-flex">
-                <span id="where">Venecia, Italia</span>
-                <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
-              </div>
-              <div class="card-subtitle">
-                <button class="btn" id="btn_sm">SHOW MORE...</button>
-              </div>
-            </div>
-          </div> 
-        </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width:100%;">
-            <div class="img-card-re">
-              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
-              <button class="btn" id="btn-left-small">❮</button>
-              <button class="btn" id="btn-right-small">❯</button>
-              <label for="prince" id="prince_card">$18,000,000.00</label>
-            </div>
-            <div class="card-body">
-              <div class="card-title d-flex">
-                <span id="where">Venecia, Italia</span>
-                <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
-              </div>
-              <div class="card-subtitle">
-                <button class="btn" id="btn_sm">SHOW MORE...</button>
-              </div>
-            </div>
-          </div>
-        </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="card" style="width:100%;">
-              <div class="img-card-re">
-                <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
-                <button class="btn" id="btn-left-small">❮</button>
-                <button class="btn" id="btn-right-small">❯</button>
-                <label for="prince" id="prince_card">$18,000,000.00</label>
-              </div>
-                <div class="card-body">
-                  <div class="card-title d-flex">
+              <div class="card-body">
+                <div class="card-title d-flex">
                   <span id="where">Venecia, Italia</span>
                   <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
                 </div>
-                  <div class="card-subtitle">
+                <div class="card-subtitle">
                   <button class="btn" id="btn_sm">SHOW MORE...</button>
-                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width:100%;">
+            <div class="img-card-newhotel">
+              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+              <button class="btn btn-newhotel-left">❮</button>
+              <button class="btn btn-newhotel-right">❯</button>
+              <label for="price" class="label-card-price">$18,000,000.00</label>
+              <button class="btn btn-newhotel-bookmark"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            
+              <div class="card-body">
+                <div class="card-title d-flex">
+                  <span id="where">Venecia, Italia</span>
+                  <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+                </div>
+                <div class="card-subtitle">
+                  <button class="btn" id="btn_sm">SHOW MORE...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width:100%;">
+            <div class="img-card-newhotel">
+              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+              <button class="btn btn-newhotel-left">❮</button>
+              <button class="btn btn-newhotel-right">❯</button>
+              <label for="price" class="label-card-price">$18,000,000.00</label>
+              <button class="btn btn-newhotel-bookmark"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            
+              <div class="card-body">
+                <div class="card-title d-flex">
+                  <span id="where">Venecia, Italia</span>
+                  <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+                </div>
+                <div class="card-subtitle">
+                  <button class="btn" id="btn_sm">SHOW MORE...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width:100%;">
+            <div class="img-card-newhotel">
+              <img src="./display/benthuyen.jpg" class="card-img-top" id="img-card"></img>
+              <button class="btn btn-newhotel-left">❮</button>
+              <button class="btn btn-newhotel-right">❯</button>
+              <label for="price" class="label-card-price">$18,000,000.00</label>
+              <button class="btn btn-newhotel-bookmark"><i class="fa-regular fa-bookmark"></i></button>
+            </div>
+            
+              <div class="card-body">
+                <div class="card-title d-flex">
+                  <span id="where">Venecia, Italia</span>
+                  <span id="room" class="ms-auto" style="margin-left: 100px;">550 room</span>
+                </div>
+                <div class="card-subtitle">
+                  <button class="btn" id="btn_sm">SHOW MORE...</button>
+                </div>
+              </div>
+            </div>
           </div>
         <div id="button_viewmore">
           <button class="btn" id="btn_viewmore">View More...</button>
         </div>
-        
       </div>
-      <div class="row"></div>
-      <div class="row"></div>
     </div>
-    <div class="container">  
+    <div class="container container-news">  
       <div class="row">
-          
         <div class=" col-12 col-lg-8" >
-          <div class="row row-title">
+          <div class="row row-news-title">
             <div class="col d-flex">
               <div style="border: 1px solid rgba(35, 31, 32, 1)"></div>
-              <div class="new"><b>Today&nbsp;</b></div>
-              <div class="hotels">news</div>
+              <div class="div-new font-weight-bold">Today&nbsp;</div>
+              <div class="div-hotels">news</div>
             </div>
           </div>
           <div class="row row_img" style="position: relative;">
@@ -238,55 +242,83 @@
           <p id="text-title">CNN&nbsp;new</p>
           <p id="text-subtitle">Italy Venice seeks more investment in the real <br> estate...</p>
           </div>
-          
         </div>
         <div class=" col-12 col-lg-4 col-morenew" >
-          <div class="row row-title">
+          <div class="row row-news-title">
             <div class="col d-flex">
-              <div class="hotels">More news</div>
+              <div class="div-hotels">More news</div>
             </div>
           </div>
-          <div class="row" id="scb">
-            <div class="scb-item d-flex">
-              <div class="content">
-                <h4>Italy Venice seeks more investment in the real estate world.</h4>
+          <div class="row row-subscribe">
+            <div class="subscribe-item d-flex ">
+              
+              <div class="content ">
+                
+                <div class="mt-2 position-relative d-flex">
+                  <button class="btn position-absolute top-0 end-0 fs-5"><i class="fa-solid fa-ellipsis-vertical "></i></button>
+                  
+                  <img src="./display/icon-cnn.png" alt="Anhloi" class="scollbar-logo-item rounded-circle">
+                  <p class="pt-1">CCNN news</p>
+                </div>
                 <h5>Italy Venice seeks more investment in the real estate world.</h5>
+                <h6>Italy Venice seeks more investment in the real estate world.</h6>
               </div>
               <div class="img img-item-scollbar ">
               <img src="./display/item-csb.jpg" alt="Anhloi" class="img-item">
               </div>
             </div>
-            <div class="scb-item d-flex">
+            <div class="subscribe-item d-flex">
+              
               <div class="content">
-                <h4>Italy Venice seeks more investment in the real estate world.</h4>
+                <div class="mt-2 position-relative d-flex">
+                  <button class="btn position-absolute top-0 end-0 fs-5"><i class="fa-solid fa-ellipsis-vertical "></i></button>
+                  <img src="./display/icon-cnn.png" alt="Anhloi" class="scollbar-logo-item rounded-circle">
+                  <p class="pt-1">CCNN news</p>
+                </div>
                 <h5>Italy Venice seeks more investment in the real estate world.</h5>
+                <h6>Italy Venice seeks more investment in the real estate world.</h6>
               </div>
               <div class="img img-item-scollbar ">
               <img src="./display/item-csb.jpg" alt="Anhloi" class="img-item">
               </div>
             </div>
-            <div class="scb-item d-flex">
+            <div class="subscribe-item d-flex">
               <div class="content">
-                <h4>Italy Venice seeks more investment in the real estate world.</h4>
+                <div class="mt-2 position-relative d-flex">
+                  <button class="btn position-absolute top-0 end-0 fs-5"><i class="fa-solid fa-ellipsis-vertical "></i></button>
+                  <img src="./display/icon-cnn.png" alt="Anhloi" class="scollbar-logo-item rounded-circle">
+                  <p class="pt-1">CCNN news</p>
+                </div>
                 <h5>Italy Venice seeks more investment in the real estate world.</h5>
+                <h6>Italy Venice seeks more investment in the real estate world.</h6>
               </div>
               <div class="img img-item-scollbar ">
               <img src="./display/item-csb.jpg" alt="Anhloi" class="img-item">
               </div>
             </div>
-            <div class="scb-item d-flex">
+            <div class="subscribe-item d-flex">
               <div class="content">
-                <h4>Italy Venice seeks more investment in the real estate world.</h4>
+                <div class="mt-2 position-relative d-flex">
+                  <button class="btn position-absolute top-0 end-0 fs-5"><i class="fa-solid fa-ellipsis-vertical "></i></button>
+                  <img src="./display/icon-cnn.png" alt="Anhloi" class="scollbar-logo-item rounded-circle">
+                  <p class="pt-1">CCNN news</p>
+                </div>
                 <h5>Italy Venice seeks more investment in the real estate world.</h5>
+                <h6>Italy Venice seeks more investment in the real estate world.</h6>
               </div>
               <div class="img img-item-scollbar ">
               <img src="./display/item-csb.jpg" alt="Anhloi" class="img-item">
               </div>
             </div>
-            <div class="scb-item d-flex">
+            <div class="subscribe-item d-flex">
               <div class="content">
-                <h4>Italy Venice seeks more investment in the real estate world.</h4>
+                <div class="mt-2 position-relative d-flex">
+                  <button class="btn position-absolute top-0 end-0 fs-5"><i class="fa-solid fa-ellipsis-vertical "></i></button>
+                  <img src="./display/icon-cnn.png" alt="Anhloi" class="scollbar-logo-item rounded-circle">
+                  <p class="pt-1">CCNN news</p>
+                </div>
                 <h5>Italy Venice seeks more investment in the real estate world.</h5>
+                <h6>Italy Venice seeks more investment in the real estate world.</h6>
               </div>
               <div class="img img-item-scollbar ">
               <img src="./display/item-csb.jpg" alt="Anhloi" class="img-item">
@@ -301,51 +333,54 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container container-services">
       <div class="col d-flex" style="margin-bottom: 30px;">
         <div style="border: 1px solid rgba(35, 31, 32, 1)"></div>
-        <div class="new"><b>Our&nbsp;</b></div>
-        <div class="hotels">services</div>
+        <div class="div-new font-weight-bold">Our&nbsp;</div>
+        <div class="div-hotels">services</div>
       </div>
-      <div class="row" id="services">
-        <div class="col-sm-12 col-lg-3 card-service">
+      <div class="row row-services ">
+        <div class="col-sm-12 col-lg-3 card-service position-relative">
           <img src="./display/business.ico" alt="iconloi">
+          <button class="btn position-absolute top-0 end-0 fs-1"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          
           <h4>Selling Hotels</h4>
           <h6>With trai Hotels you can sell your hotel,<br> placing the information requested, <br> quickly and safely...</h6>
         </div>
-        <div class="col-sm-12 col-lg-3 card-service">
+        <div class="col-sm-12 col-lg-3 card-service position-relative">
           <img src="./display/business.ico" alt="iconloi">
+          <button class="btn position-absolute top-0 end-0 fs-1"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+          
           <h4>Selling Hotels</h4>
           <h6>With trai Hotels you can sell your hotel,<br> placing the information requested, <br> quickly and safely...</h6>
         </div>
-        <div class="col-sm-12 col-lg-3 card-service">
+        <div class="col-sm-12 col-lg-3 card-service position-relative">
           <img src="./display/business.ico" alt="iconloi">
+          <button class="btn position-absolute top-0 end-0 fs-1"><i class="fa-solid fa-ellipsis-vertical"></i></button>
           <h4>Selling Hotels</h4>
           <h6>With trai Hotels you can sell your hotel,<br> placing the information requested, <br> quickly and safely...</h6>
         </div>
       </div>
     </div>
-    <div class="container container-Subscription">
-      <div class="row d-flex row-logo-subscription" >
-        <div class="col"><img src="./display/marriott.png" alt="Anhloi" class="img-subscription img-marriott"></div>
-        <div class="col"><img src="./display/hilton.png" alt="Anhloi" class="img-subscription "></div>
-        <div class="col"><img src="./display/marriott.png" alt="Anhloi" class="img-subscription img-marriott"></div>
-        <div class="col"><img src="./display/hilton.png" alt="Anhloi" class="img-subscription"></div>
-        <div class="col"><img src="./display/marriott.png" alt="Anhloi" class="img-subscription img-marriott"></div>
+    <div class="container container-subscribe">
+      <div class="row d-flex row-logo-subscribe">
+        <div class="col"><img src="./display/marriott.png" alt="Anhloi" class="img-subscribe img-marriott"></div>
+        <div class="col"><img src="./display/hilton.png" alt="Anhloi" class="img-subscribe "></div>
+        <div class="col"><img src="./display/marriott.png" alt="Anhloi" class="img-subscribe img-marriott"></div>
+        <div class="col"><img src="./display/hilton.png" alt="Anhloi" class="img-subscribe"></div>
+        <div class="col"><img src="./display/marriott.png" alt="Anhloi" class="img-subscribe img-marriott"></div>
       </div>
-      <div class="row row-title-subscription">
-        <h1><b>Subscribe & <br>get news and top hotels</b></h1>
-      </div>
-      <div class="row row-title-subscription">
+      <div class="row row-title-subscribe font-weight-bold">
+        <h1>Subscribe & <br>get news and top hotels</h1>
         <h5>At the moment of subscribing you accept to be a VIP member of Zolutto, you will <br> receive news and valuable information</h5>
       </div>
-      <div class="row row-subscription">
-        <div class="col col-8 col-text-subscription" style="text-align: right;"><input type="text"></div>
-        <div class="col col-4"><input type="button" value="Subscription" class="btn btn-subscription"></div>
+      <div class="row row-btn-subscribe">
+        <div class="col col-8 col-text-subscribe " style=" text-align: right;"><input class="text-subscribe" type="text"></div>
+        <div class="col col-4"><input type="button" value="subscribe" class="btn btn-subscribe"></div>
       </div>
     </div>
-    <div class="container">
-      <div class="row" style="background-color: black;">
+    <div class="container container-footer">
+      <div class="row row-footer-title" style="background-color: black;">
         <div class=" col-sm-12 col-lg-8 col-titlestarthere">
           <p>If you have a hotel that you want to sell, we sell it for you.</p>
         </div>
@@ -353,8 +388,8 @@
           <button class="btn btn-starthere">Start here...</button>
         </div>
       </div>
-      <div class="row row-hr"><hr class="hr-white"></div>
-      <div class="row row-ft" >
+      <div class="row row-line"><hr class="line-white"></div>
+      <div class="row row-footer" >
         <div class=" col-ms-12 col-lg-3">
           <div class="text-menu">Menu</div>
           <div style="border: 1px solid  rgba(255, 255, 255, 1)"></div>
@@ -388,7 +423,7 @@
           <h6>Contacts</h6>
         </div>
       </div>
-      <div class="row row-bottomft"><h3>by beanar.io</h3></div>
+      <div class="row row-footer-bottom"><h3>by beanar.io</h3></div>
     </div>
     
   </body>
