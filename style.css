@@ -111,14 +111,12 @@ body {
   height: auto;
   background-color: white;
 }
-
 .big-op {
   background-color: rgba(255, 255, 255, 1);
   padding-top: 10px;
   width: auto;
   text-align: center;
 }
-
 .select-search {
   width: 220px;
 }
