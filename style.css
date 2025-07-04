@@ -19,10 +19,9 @@ body {
 .btn-signin {
   vertical-align: middle;
   background: rgba(46, 76, 89, 1);
-
   color: white;
   font-size: 16px;
-  width: 80px;
+  width: 100px;
 }
 
 .underline {

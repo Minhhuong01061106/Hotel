@@ -28,3 +28,8 @@ body {
 .col-search > h4 {
   margin-bottom: 15px;
 }
+#nav > ul > li {
+  width: 130px;
+  text-align: center;
+  font-size: 15px;
+}
