@@ -13,3 +13,24 @@
 .logo-bigming-cnn {
   width: 50px;
 }
+.icon-top-smallcard {
+  width: 10%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.col-top-right > div > hr {
+  margin: 0;
+}
+.col-top-right > div > p {
+  margin: 22px;
+}
+.col-titlestarthere {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 80px;
+  color: aliceblue;
+  text-align: center;
+}
